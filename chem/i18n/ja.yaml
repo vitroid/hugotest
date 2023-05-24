@@ -75,7 +75,7 @@
 
 - id: join
   translation: 参加する
-  
+
 - id: enter_email
   translation: Eメール…
 
@@ -108,3 +108,12 @@
 
 - id: download
   translation: Download
+
+- id: department
+  translation: 化学科
+
+- id: university
+  translation: 岡山大学
+
+- id: laboratories
+  translation: 研究室

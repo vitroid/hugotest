@@ -12,6 +12,17 @@ summaryLength = "10"
 disableLanguages = [] # desable language from here
 ## MM
 defaultContentLanguageInSubdir = false
+[taxonomies]
+  # 単数形="複数形" で両方定義する。
+  # blog (news&events)
+  category = 'categories'
+  tag = 'tags'
+  # laboratories
+  la_category = 'la_categories'
+  la_tag = 'la_tags'
+  # research topics
+  rt_category = 'rt_categories'
+  rt_tag = 'rt_tags'
 
 ############################# Plugins ##############################
 
@@ -144,8 +155,8 @@ hasChildren = true
 
   [[Languages.ja.menu.main]]
   parent = "研究"
-  name = "研究分野"
-  url = "research-field/"
+  name = "研究室"
+  url = "laboratory/"
 
   [[Languages.ja.menu.main]]
   parent = "研究"
@@ -183,6 +194,7 @@ weight = 5
 [[Languages.ja.menu.footer]]
 name = "教員"
 url = "faculty/"
+weight = 1
 
 ## [[Languages.ja.menu.footer]]
 ## name = "notice"
@@ -197,18 +209,26 @@ url = "faculty/"
 ## url = "scholarship/"
 
 [[Languages.ja.menu.footer]]
-name = "研究分野"
-url = "research-field/"
+name = "研究室"
+url = "laboratory/"
+weight = 2
 
 [[Languages.ja.menu.footer]]
 name = "注目の研究"
 url = "research-topic/"
+weight = 3
 
 [[Languages.ja.menu.footer]]
 name = "化学科パンフレット"
 url = "pamphlet/"
+weight = 4
 
+# 大学関連
 
+[[Languages.ja.menu.footer2]]
+name = "大学トップページ"
+url = "https://www.okayama-u.ac.jp/"
+weight = 1
 
 # ################################### English language #####################################
 [Languages.en]

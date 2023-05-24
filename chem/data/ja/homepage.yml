@@ -4,37 +4,37 @@ slider:
   bg_image : "images/banner/banner-1.jpg"
   slider_item:
     # slider item loop
-    - title : "題名1"
+    - title : "錬金術の最先端を知ろう"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler maintenant"
-        link : "contact/"
+        label : "研究室・研究分野"
+        link : "laboratory/"
 
     # slider item loop
-    - title : "題名2"
+    - title : "錬金術の基礎を学ぼう"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
-        link : "contact/"
+        label : "学部入試・三年次編入"
+        link : "bachelor/"
 
     # slider item loop
-    - title : "題名3"
+    - title : "研究者をめざす君たちへ"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam, quis nostrud exer"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Postuler"
-        link : "contact/"
+        label : "大学院入試"
+        link : "graduate/"
 
 
 ############################### Banner feature ###############################
@@ -64,7 +64,6 @@ banner_feature:
 
 
 ############################## about ##################################
-# ここには、各ページの冒頭のメッセージを書く?
 about:
   enable : true
   title : "À propos d’化学科"
@@ -80,25 +79,25 @@ about:
 
 
 ############################# Course ################################
-course:
+laboratory:
   enable : true
-  title : "Notre cours"
-  # course item comes from "content/**/course" folder.
+  title : "研究分野"
+  # laboratory item comes from "content/**/laboratory" folder.
 
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Cliquez pour vous joindre à l’atelier avancé"
-  title : "Apprentissage en réseautique avancée"
+  subtitle : "錬金術を身近に"
+  title : "現代の錬金術を学ぼう"
   button:
     enable : true
-    label : "Se joindre"
+    label : "お問いあわせ"
     link : "contact/"
 
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/success-story.jpg"
   title : "Histoires de réussites"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat.
@@ -112,14 +111,14 @@ success_story:
 
 ############################# event ################################
 event:
-  enable : true
+  enable : false
   title : "Événements à venir"
   # event item comes from "content/**/event" folder.
 
 
 ########################### funfacts ############################
 funfacts:
-  enable : true
+  enable : false
   funfact_item:
     # funfact item loop
     - name : "ENSEIGNANTS"
@@ -144,5 +143,5 @@ funfacts:
 ############################# blog ################################
 blog:
   enable : true
-  title : "DERNIÈRES NOUVELLES"
+  title : "新着 & 催事"
   # blog item comes from "content/**/blog" folder.

@@ -1,5 +1,5 @@
 ---
-title: "研究分野"
+title: "研究室"
 draft: false
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
